@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbox</title>
+</head>
+<style>
+
+
+
+    
+
+    @keyframes jumps {
+    50%{transform: translateY(100px) ; }
+    /* 25%{transform: translateY(25px) ; }
+    50%{transform: translateY(30px) ; }
+    100%{transform: translateY(35px) ; } */
+    
+}
+.ball{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    
+    
+}
+
+.blueball{
+   
+   height: 50px;
+   animation: 2s jumps ease infinite;
+   background-color: #4285F5;
+   border-radius: 50px;
+   width: 50px;
+   margin: 20px;
+   animation-duration: 2s;
+
+    
+}
+.redball{
+   
+    height: 50px;
+    animation: 3s jumps ease infinite;
+    background-color: #EA4436;
+    border-radius: 50px;
+    width: 50px;
+    animation-delay: 0.25s;
+    animation-duration: 2s;
+     
+ }
+ .yellowball{
+   
+    height: 50px;
+    animation: 4s jumps ease infinite;
+    background-color: #d8ca27;
+    margin: 20px;
+    border-radius: 100px;
+    width: 50px;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+}
+.greenball{
+     
+    height: 50px;
+    animation: 5s jumps ease infinite;
+    background-color: #27d842;
+    margin: 20px;
+    border-radius: 50px;
+    width: 50px;
+    animation-delay: 0.74s;
+    animation-duration: 2s;
+}
+.orangeball{
+    height: 50px;
+    animation: 6s jumps ease infinite;
+    background-color: orange;
+    margin: 20px;
+    border-radius: 50px;
+    width: 50px;
+    animation-delay: 1s;
+    animation-duration: 2s;
+
+}
+.google{
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+   
+    
+} 
+.yelowball{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    /* margin: 10px; */
+
+}
+.name{
+    color: blue;
+    font-size: 30px;
+    font-weight: bolder;
+    /* margin: 10px; */
+}
+.circleball{
+    /* background-color: red; */
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    /* margin: 10px; */
+    box-shadow: 3px 3px 10px red;
+}
+.coloredball{
+    transform: rotate(200px, 200px);
+    width: 20px;
+    height: 20px;
+    border-radius: 20px ;
+    background-color: green;
+}
+.g{
+    font-size: 30px;
+    color: blue;
+    font-weight: bolder;
+}
+.l{
+    font-size: 30px;
+    color: green;
+    font-weight: bolder;
+}
+.e{
+    font-size: 30px;
+    color:  red ;
+    font-weight: bolder;
+}
+.footer{
+    background-color: red;
+    width: 20px;
+    height: 50px;
+    border-radius: 20px;
+    animation: 2s jumps ease infinite;
+}
+.googlenavbar{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    
+    
+}
+input[type=text], select{
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+</style>
+<body>
+    <div class="ball">
+        <div class="blueball"></div>
+            <div class="redball"></div>
+                <div class="yellowball"></div>
+                <div class="greenball"></div>
+                <div class="orangeball"></div>
+            
+        
+    </div>
+    <div class="googlenavbar">
+        <input type="text" placeholder="!!! search as your wish " width="20px">
+    </div><br>
+    <br>
+    <div class="google">
+        <div class="yelowball"></div>
+        <div class="name">G</div>
+        <div class="circleball"></div>
+        <div class="coloredball"> </div>
+        <div class="g">g </div>
+        <div class="l">l</div>
+        <div class="e">e </div>
+        <div class="footer"></div>
+    </div>
+
+  
+
+    
+    
+</body>
+</html>
