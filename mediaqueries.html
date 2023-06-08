@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+</head>
+<style>
+
+
+
+
+    .navbar{
+        background-color: gray;
+        background-image: linear-gradient(black ,gray);
+        
+    }
+    .lists{
+        display: flex;
+        list-style: none;
+        
+    }
+     ul li{
+        margin: 20px;
+        color: whitesmoke;
+    }
+    .home{
+        
+    }
+    
+  
+
+    .container1{
+        background-color:red;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+       
+       
+    }
+    .container2{
+        background-color: lightblue;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+       
+       
+    }
+    .container3{
+        background-color: lightblue;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+    .container4{
+        background-color: lightblue;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+       
+    }
+    .container5{
+        background-color: lightblue;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+       
+    }
+    .pic{
+        width: 200px;
+        height: 200px;
+        margin-left: 200px;
+        position: relative;
+        bottom: 300px;
+        left: 20px;
+        
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+        
+
+    }
+    @media only screen and (min-width: 700px) and (max-width: 1200px)  {
+            .navbar{
+                background-image: linear-gradient(blue,purple);
+                width: 2000px;
+                
+
+
+            }
+            ul li{
+                color: black;
+            }
+            .home{
+                margin-right: 500px;
+                
+            }
+            .container1{
+                margin-left: 500px;
+                color: red;
+                font-size: 20px;
+                height: 50px;
+                background-color: blue;
+                
+            }
+            .container2{
+                margin-left: 500px;
+                color: red;
+                font-size: 20px;
+                height: 50px;
+            }
+            .container3{
+                margin-left: 500px;
+                color: red;
+                font-size: 20px;
+                height: 50px;
+            }
+            .container4{
+                margin-left: 500px;
+                color: red;
+                font-size: 20px;
+                height: 50px;
+            }
+            .container5{
+                margin-left: 500px;
+                color: red;
+                font-size: 20px;
+                height: 50px;
+            }
+            body{
+                background-image: url(pic.jpg);
+            }
+            .pic{
+                display: none;
+            }
+            
+
+        }
+
+
+
+</style>
+<body>
+    <nav class="navbar">
+        <ul class="lists">
+            <li class="home">home</li>
+        <li class="about">about</li>
+    <li class="contact">contact</li>
+    <li class="help">help</li></ul>
+    </nav>
+    <!--setting the background image in lappy view-->
+    <div class="background">
+
+    <div class="container1">
+        container1
+    </div>
+    <div class="container2">
+        container2
+    </div>
+    <div class="container3">
+        container3
+    </div> <div class="container4">
+        container4
+    </div> <div class="container5">
+        container5
+    </div>
+    <div class="pic">
+        <div class="para"><p>this is the paragrapgh for sample</p></div>
+        <img src="pic.jpg" >
+        
+    </div>
+</div>
+</body>
+</html>
